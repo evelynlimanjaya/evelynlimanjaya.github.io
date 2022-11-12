@@ -14,10 +14,6 @@ body {
 
 }
 
-      #myinfo::-webkit-scrollbar {
-        display: none;
-      }
-
 .myInfoTitle {
   font-family: monospace;
   font-weight: bold;
@@ -30,13 +26,12 @@ body {
 }
 
 h1 {
-  color: hsl(0, 0%, 28%);
-
+  color: cornflower blue;
   cursor: pointer;
 }
 
 h1 {
-  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  background: linear-gradient(to right, cadetblue 0, hsl(0, 0%, 100%) 10%, darkcyan 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
