@@ -3,22 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
 
   <title>Evelyn Limanjaya Portfolio</title>
 
-<!--  <style>-->
-<!--body {-->
-<!--  background-color: linen;-->
-<!--}-->
-
-<!--h1 {-->
-<!--  color: maroon;-->
-<!--  margin-left: 40px;-->
-<!--}-->
-<!--</style>-->
+  <style>
+<!--css-->
+</style>
 </head>
+
 
 <body>
 <!--  <div class="container">-->
@@ -33,7 +27,8 @@
 <!--  <div class="container">-->
 
 <!--  </div>-->
-  <div class="container-fluid">
+
+  <div class="vh-100 d-flex flex-column overflow-hidden">
     <div id="menuBar" class="row sticky-top justify-content-center">
       <div class="column p-3" >
         About This Website
@@ -46,9 +41,9 @@
       </div>
 
     </div>
-    <div class="row vh-100 d-flex flex-row overflow-auto">
+    <div class="flex-fill d-flex flex-row overflow-auto">
       <aside class="col-7 pt-5 pl-2 sidebar d-flex flex-column" id="myInfo">
-        <div class="container">
+        <div class="sidebar-content p-2 overflow-auto">
           <h6 class="myInfoTitle">QA Engineer</h6>
           <h1 class="myInfoTitle">Evelyn Limanjaya</h1>
           <p class="myInfoText">
@@ -94,7 +89,7 @@
 
         </div>
       </aside>
-      <div class="col-5 vh-100" style="background-color:blue;" id="homePicture">
+      <div class="column flex-fill p-3 overflow-hidden" style="background-color:blue;" id="homePicture">
         <div class="container">
           <h3>6 columns wide:</h3>
           <p>On medium sized screens and bigger!</p>

@@ -1,0 +1,77 @@
+body {
+  background-color: linen;
+
+}
+
+#menuBar {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+#myInfo {
+  background-color: CornflowerBlue;
+
+}
+
+      #myinfo::-webkit-scrollbar {
+        display: none;
+      }
+
+.myInfoTitle {
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.myInfoText {
+  font-family: monospace;
+}
+
+h1 {
+  color: hsl(0, 0%, 28%);
+
+  cursor: pointer;
+}
+
+h1 {
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: cornflower blue;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+  }
+
