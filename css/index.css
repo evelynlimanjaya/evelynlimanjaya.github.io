@@ -5,7 +5,11 @@ body {
 
 #menuBar {
   background-color: black;
-  color: white;
+
+}
+
+.menuListText {
+  color:white;
   font-family: monospace;
 }
 
