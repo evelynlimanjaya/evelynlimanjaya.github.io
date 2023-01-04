@@ -10,7 +10,7 @@ body {
 
 .menuListText {
   color:white;
-  font-family: monospace;
+  font-family: verdana;
 }
 
 #myInfo {
@@ -82,11 +82,11 @@ img {
   }
 
   *::-webkit-scrollbar-track {
-    background: #f1faee;
+    background: #fcbf49;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #457b9d;
+    background-color: #d62828;
     border-radius: 10px;
   }
 
