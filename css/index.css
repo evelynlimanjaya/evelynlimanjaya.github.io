@@ -14,7 +14,7 @@ body {
 }
 
 #myInfo {
-  background-color: #f1faee;
+  background-color: #fcbf49;
 
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 h1 {
-  background: linear-gradient(to right, #457b9d 0, hsl(0, 0%, 100%) 10%, #457b9d 20%);
+  background: linear-gradient(to right, #003049 0, hsl(0, 0%, 100%) 10%, #003049 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
@@ -54,7 +54,7 @@ h1 {
 }
 
 .btn-color {
-    background-color: #a8dadc;
+    background-color: #eae2b7;
 }
 
 img {
