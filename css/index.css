@@ -14,19 +14,19 @@ body {
 }
 
 #myInfo {
-  background-color: #89CFF0;
+  background-color: #f1faee;
 
 }
 
 .myInfoTitle {
-  font-family: monospace;
+  font-family: verdana;
   font-weight: bold;
   letter-spacing: 7px;
   text-transform: uppercase;
 }
 
 .myInfoText {
-  font-family: monospace;
+  font-family: verdana;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
 }
 
 h1 {
-  background: linear-gradient(to right, cadetblue 0, hsl(0, 0%, 100%) 10%, darkcyan 20%);
+  background: linear-gradient(to right, #457b9d 0, hsl(0, 0%, 100%) 10%, #457b9d 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
@@ -53,6 +53,10 @@ h1 {
   }
 }
 
+.btn-color {
+    background-color: #a8dadc;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -66,7 +70,7 @@ img {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #8f54a0;
+    scrollbar-color: #1d3557;
   }
 
   /* Chrome, Edge, and Safari */
@@ -75,11 +79,11 @@ img {
   }
 
   *::-webkit-scrollbar-track {
-    background: cornflower blue;
+    background: #f1faee;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #8f54a0;
+    background-color: #457b9d;
     border-radius: 10px;
   }
 
