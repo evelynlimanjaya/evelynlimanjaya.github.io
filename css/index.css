@@ -53,6 +53,13 @@ h1 {
   }
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
