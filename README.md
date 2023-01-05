@@ -1,3 +1,3 @@
 # evelynlimanjaya.github.io
 
-This is my portfolio website
+This is my portfolio website. It is still under development.
