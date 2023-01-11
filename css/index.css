@@ -57,6 +57,10 @@ h1 {
     background-color: #eae2b7;
 }
 
+.btn-color:hover {
+    background-color: #f77f00;
+}
+
 img {
     max-width: 100%;
     height: auto;
